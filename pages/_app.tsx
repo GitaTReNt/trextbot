@@ -8,9 +8,9 @@ import '@/styles/globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
-function App({ Component, pageProps }: AppProps<{}>) {
-  const queryClient = new QueryClient();
+const queryClient = new QueryClient();
 
+function App({ Component, pageProps }: AppProps) {
   return (
     <div className={inter.className}>
       <Toaster />
@@ -22,3 +22,4 @@ function App({ Component, pageProps }: AppProps<{}>) {
 }
 
 export default appWithTranslation(App);
+
