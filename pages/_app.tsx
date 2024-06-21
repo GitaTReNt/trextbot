@@ -3,7 +3,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { AppProps } from 'next/app';
 
 import { appWithTranslation } from 'next-i18next';
-import type { AppProps } from 'next/app';
+//import type { AppProps } from 'next/app';
 import { Inter } from 'next/font/google';
 
 import '@/styles/globals.css';
